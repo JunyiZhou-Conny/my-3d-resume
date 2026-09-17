@@ -1,3 +1,5 @@
+> This branch runs Conny's character and projects in the original scene. See the [comparison notes](docs/conny-comparison.md) and [run instructions](docs/run-conny-comparison.md). The upstream documentation follows.
+
 <h1 align="center">About Sen · 3D Personal Résumé</h1>
 
 <p align="center">

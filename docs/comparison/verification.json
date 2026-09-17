@@ -1,0 +1,1521 @@
+{
+  "url": "http://localhost:3020",
+  "baseline": "c9a9fe373cde72c77ff7f2dabde17fb79dce89b3",
+  "started": "2026-09-17T04:36:55.023Z",
+  "checks": [
+    {
+      "name": "Unchanged web/src/scene/Scene.tsx",
+      "passed": true,
+      "detail": {
+        "sha256": "406802de3ae83cef7b0cddd28d5be767dddcbefddb9e4af29bf77ab49f4b1953"
+      }
+    },
+    {
+      "name": "Unchanged web/src/scene/Env.tsx",
+      "passed": true,
+      "detail": {
+        "sha256": "51e2f61d41b783e54d77017450087b8bf092797d2668b6dfadf32345f00c9bf8"
+      }
+    },
+    {
+      "name": "Unchanged web/src/styles.css",
+      "passed": true,
+      "detail": {
+        "sha256": "0da23622865ad977bda939a4187c1394926de55eabff919a657f244e43d596f8"
+      }
+    },
+    {
+      "name": "Unchanged web/src/data/focusPoints.ts",
+      "passed": true,
+      "detail": {
+        "sha256": "1029e64253732c2ffa84952711cdc6340c380213852845f0ec698bba5264ca5d"
+      }
+    },
+    {
+      "name": "Unchanged web/src/store.ts",
+      "passed": true,
+      "detail": {
+        "sha256": "38ba2b2a05cc0ab3721e249afa6b6488b14fea1e7ce6df42113ee3cbdd376735"
+      }
+    },
+    {
+      "name": "Unchanged web/vite.config.ts",
+      "passed": true,
+      "detail": {
+        "sha256": "606f19a327b5ada8db5ddffec696b0bd91cf56982aebf836c13be7bbb123e8d1"
+      }
+    },
+    {
+      "name": "Unchanged web/package.json",
+      "passed": true,
+      "detail": {
+        "sha256": "2e651eef4e7de52184e85d3c78c767aed01a9fe970eb4e2cafe1594deaeccf47"
+      }
+    },
+    {
+      "name": "Unchanged web/package-lock.json",
+      "passed": true,
+      "detail": {
+        "sha256": "17cd907cd88aa14a5c44865628eadcfddb5c7cf5073f66abb0e0db6040fe7df5"
+      }
+    },
+    {
+      "name": "Original Canvas configuration",
+      "passed": true
+    },
+    {
+      "name": "Camera, animation carrier, and seven focus anchors",
+      "passed": true
+    },
+    {
+      "name": "Original authored camera",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Camera.001",
+          "perspective": {
+            "aspectRatio": 1.7777777777777777,
+            "yfov": 0.39959648408210363,
+            "zfar": 100,
+            "znear": 0.10000000149011612
+          },
+          "type": "perspective"
+        }
+      ]
+    },
+    {
+      "name": "Original animation clip names",
+      "passed": true
+    },
+    {
+      "name": "Conny character replaces the source mesh",
+      "passed": true,
+      "detail": {
+        "bytes": 5828864,
+        "sha256": "c4f68c6670534f528d2c663cf4cc0100c8f84c4803b2f28d435e92f8e237a7f7"
+      }
+    },
+    {
+      "name": "No substituted eye tracking geometry",
+      "passed": true
+    },
+    {
+      "name": "desktop: served prepared model",
+      "passed": true
+    },
+    {
+      "name": "desktop: Conny identity",
+      "passed": true
+    },
+    {
+      "name": "desktop: no source author's personal biography",
+      "passed": true
+    },
+    {
+      "name": "desktop: five timeline entries",
+      "passed": true
+    },
+    {
+      "name": "desktop: hero renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          0,
+          0.9420416183769703,
+          8.593389678001405
+        ],
+        "quaternion": [
+          0.0034915558615043057,
+          0,
+          0,
+          0.9999939045002555
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "desktop: hero has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "desktop: focus-1 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          2.1468408495046134,
+          0.48421813369455713,
+          1.402661155003471
+        ],
+        "quaternion": [
+          0.15248137088877628,
+          0.353551097335041,
+          -0.058531355143493384,
+          0.921045673986982
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "desktop: focus-1 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "desktop: focus-2 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          2.184882887794835,
+          0.5778421566631635,
+          -0.059029677466151065
+        ],
+        "quaternion": [
+          0.07876934676462266,
+          0.623395649066863,
+          -0.06333321290088242,
+          0.7753464766660327
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "desktop: focus-2 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "desktop: focus-3 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          -1.502039550188953,
+          1.6055564173113779,
+          1.0941099289583331
+        ],
+        "quaternion": [
+          -0.08989572578273694,
+          -0.41219992373607006,
+          -0.02859194016428421,
+          0.9061967128143951
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "desktop: focus-3 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "desktop: focus-4 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          -1.036076816620942,
+          -0.1595824891802473,
+          1.1438994774687432
+        ],
+        "quaternion": [
+          0.3443347127262728,
+          -0.2850016273910541,
+          0.11055251195433699,
+          0.887685653875713
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "desktop: focus-4 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "desktop: focus-5 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          0.6422310219347408,
+          1.7089632524268827,
+          7.483174879255162
+        ],
+        "quaternion": [
+          -0.03486086169447005,
+          -0.010463286787135654,
+          -0.0003652541479723513,
+          0.9993373337071605
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "desktop: focus-5 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "desktop: works renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          4.02676659822464,
+          1.7089766055345534,
+          7.483220148086548
+        ],
+        "quaternion": [
+          -0.03486375513290455,
+          -0.010461145088438399,
+          -0.000365209824212144,
+          0.9993372552062975
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.2661476135253906,
+          0,
+          0.9639322757720947
+        ]
+      }
+    },
+    {
+      "name": "desktop: works has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "desktop: camera moves through native scroll stops",
+      "passed": true
+    },
+    {
+      "name": "desktop: manAction turns character in works",
+      "passed": true
+    },
+    {
+      "name": "desktop: four real works",
+      "passed": true
+    },
+    {
+      "name": "desktop: work 1 has authored detail and repository CTA",
+      "passed": true,
+      "detail": {
+        "title": "Pediatric Savior",
+        "content": "A GPT-based rapid-cycle simulator for pediatric airway training, built with Emory Pediatrics and Children's Healthcare of Atlanta.\nResidents run cases. Admins edit instructions. The system includes chat, a case editor, conversation history, and Auth0 roles.\nThe application uses React, Flask, MongoDB, and AWS.",
+        "href": "https://github.com/JunyiZhou-Conny/Airway-Management-Assistant",
+        "placeholder": false,
+        "locked": true,
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "desktop: work 1 images load and modal locks scroll",
+      "passed": true
+    },
+    {
+      "name": "desktop: work 1 closes and restores native scroll",
+      "passed": true,
+      "detail": {
+        "before": {
+          "scroll": 5623,
+          "overflow": ""
+        },
+        "after": {
+          "scroll": 5623,
+          "overflow": ""
+        },
+        "scroll": 5523
+      }
+    },
+    {
+      "name": "desktop: work 2 has authored detail and repository CTA",
+      "passed": true,
+      "detail": {
+        "title": "speciesOT",
+        "content": "Exploring how optimal transport can map mouse cells to human cells in a shared autoencoder latent space.\nA command-line toolkit brings model comparison, scorecards, and cluster workflows together. It lists models, prints a scorecard, and shows the sbatch chain a human still submits.\nThis work is in progress. Research results stay outside the public repository.",
+        "href": "https://github.com/JunyiZhou-Conny/speciesOT",
+        "placeholder": false,
+        "locked": true,
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "desktop: work 2 images load and modal locks scroll",
+      "passed": true
+    },
+    {
+      "name": "desktop: work 2 closes and restores native scroll",
+      "passed": true,
+      "detail": {
+        "before": {
+          "scroll": 6503,
+          "overflow": ""
+        },
+        "after": {
+          "scroll": 6503,
+          "overflow": ""
+        },
+        "scroll": 6403
+      }
+    },
+    {
+      "name": "desktop: work 3 has authored detail and repository CTA",
+      "passed": true,
+      "detail": {
+        "title": "Job Search OS",
+        "content": "An application workflow with a memory, running since July 2026.\nCursor defines the policy. Polar Browser carries out the workflow. GitHub records changes, and Google Sheets tracks each run.\nApplication submission follows explicit rules.",
+        "href": "https://github.com/JunyiZhou-Conny/job-search-2026-2027-starter",
+        "placeholder": false,
+        "locked": true,
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "desktop: work 3 images load and modal locks scroll",
+      "passed": true
+    },
+    {
+      "name": "desktop: work 3 closes and restores native scroll",
+      "passed": true,
+      "detail": {
+        "before": {
+          "scroll": 7383,
+          "overflow": ""
+        },
+        "after": {
+          "scroll": 7383,
+          "overflow": ""
+        },
+        "scroll": 7283
+      }
+    },
+    {
+      "name": "desktop: work 4 has authored detail and repository CTA",
+      "passed": true,
+      "detail": {
+        "title": "scGen / CellOT autoresearch",
+        "content": "Fairshare-aware ablation search on FASRC Cannon: submit experiments, watch results, reflect, and decide what to run next.\nThe director writes an agenda; the execution layer keeps carrying it out. This separates research planning from the cluster work that needs to continue.\nThe public repository describes the system. Unpublished scientific results remain private.",
+        "href": "https://github.com/JunyiZhou-Conny/scgen-cellot-autoresearch",
+        "placeholder": false,
+        "locked": true,
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "desktop: work 4 images load and modal locks scroll",
+      "passed": true
+    },
+    {
+      "name": "desktop: work 4 closes and restores native scroll",
+      "passed": true,
+      "detail": {
+        "before": {
+          "scroll": 7703,
+          "overflow": ""
+        },
+        "after": {
+          "scroll": 7703,
+          "overflow": ""
+        },
+        "scroll": 7603
+      }
+    },
+    {
+      "name": "desktop: all page images load",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop: no runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop: no failed asset requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone: served prepared model",
+      "passed": true
+    },
+    {
+      "name": "phone: Conny identity",
+      "passed": true
+    },
+    {
+      "name": "phone: no source author's personal biography",
+      "passed": true
+    },
+    {
+      "name": "phone: five timeline entries",
+      "passed": true
+    },
+    {
+      "name": "phone: hero renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          0.00046857657709304746,
+          0.8279362693428994,
+          10.32025838661201
+        ],
+        "quaternion": [
+          0.0034915558615043057,
+          0,
+          0,
+          0.9999939045002555
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "phone: hero has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "phone: focus-1 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          2.2691068435922297,
+          0.3241309266058736,
+          1.9046908338509967
+        ],
+        "quaternion": [
+          0.15248336833401235,
+          0.35355628491103436,
+          -0.058533137160332205,
+          0.9210432387437579
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "phone: focus-1 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "phone: focus-2 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          2.4707626793225232,
+          0.494385298411334,
+          0.22260522925386872
+        ],
+        "quaternion": [
+          0.07876856569922729,
+          0.6233983917912204,
+          -0.06333304909291554,
+          0.7753443641778799
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "phone: focus-2 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "phone: focus-3 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          -1.8723027292462489,
+          1.6606752436805758,
+          1.1547881535678715
+        ],
+        "quaternion": [
+          -0.0898965988898164,
+          -0.4122057726303758,
+          -0.028592935532664454,
+          0.9061939342965518
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "phone: focus-3 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "phone: focus-4 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          -1.3882868768807182,
+          -0.411308587971817,
+          1.233015879387633
+        ],
+        "quaternion": [
+          0.34433534607129485,
+          -0.28500140702627275,
+          0.11055263327302224,
+          0.8876854638414482
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "phone: focus-4 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "phone: focus-5 renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          -0.29971417762231223,
+          1.7759082578764709,
+          8.943142349117782
+        ],
+        "quaternion": [
+          -0.03485861340900748,
+          -0.010464950990788605,
+          -0.00036528858985237226,
+          0.9993373946952089
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.0012098865117877722,
+          0,
+          0.9999992847442627
+        ]
+      }
+    },
+    {
+      "name": "phone: focus-5 has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "phone: works renders with original camera FOV",
+      "passed": true,
+      "detail": {
+        "camera": [
+          4.735646865124627,
+          1.8032130286097525,
+          8.964740883707181
+        ],
+        "quaternion": [
+          -0.03486375513290455,
+          -0.010461145088438399,
+          -0.000365209824212144,
+          0.9993372552062975
+        ],
+        "fov": 22.89519204617112,
+        "man": [
+          0,
+          0.2661476135253906,
+          0,
+          0.9639322757720947
+        ]
+      }
+    },
+    {
+      "name": "phone: works has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "phone: camera moves through native scroll stops",
+      "passed": true
+    },
+    {
+      "name": "phone: manAction turns character in works",
+      "passed": true
+    },
+    {
+      "name": "phone: four real works",
+      "passed": true
+    },
+    {
+      "name": "phone: work 1 has authored detail and repository CTA",
+      "passed": true,
+      "detail": {
+        "title": "Pediatric Savior",
+        "content": "A GPT-based rapid-cycle simulator for pediatric airway training, built with Emory Pediatrics and Children's Healthcare of Atlanta.\nResidents run cases. Admins edit instructions. The system includes chat, a case editor, conversation history, and Auth0 roles.\nThe application uses React, Flask, MongoDB, and AWS.",
+        "href": "https://github.com/JunyiZhou-Conny/Airway-Management-Assistant",
+        "placeholder": false,
+        "locked": true,
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "phone: work 1 images load and modal locks scroll",
+      "passed": true
+    },
+    {
+      "name": "phone: work 1 closes and restores native scroll",
+      "passed": true,
+      "detail": {
+        "before": {
+          "scroll": 4336,
+          "overflow": ""
+        },
+        "after": {
+          "scroll": 4336,
+          "overflow": ""
+        },
+        "scroll": 4236
+      }
+    },
+    {
+      "name": "phone: work 2 has authored detail and repository CTA",
+      "passed": true,
+      "detail": {
+        "title": "speciesOT",
+        "content": "Exploring how optimal transport can map mouse cells to human cells in a shared autoencoder latent space.\nA command-line toolkit brings model comparison, scorecards, and cluster workflows together. It lists models, prints a scorecard, and shows the sbatch chain a human still submits.\nThis work is in progress. Research results stay outside the public repository.",
+        "href": "https://github.com/JunyiZhou-Conny/speciesOT",
+        "placeholder": false,
+        "locked": true,
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "phone: work 2 images load and modal locks scroll",
+      "passed": true
+    },
+    {
+      "name": "phone: work 2 closes and restores native scroll",
+      "passed": true,
+      "detail": {
+        "before": {
+          "scroll": 4848,
+          "overflow": ""
+        },
+        "after": {
+          "scroll": 4848,
+          "overflow": ""
+        },
+        "scroll": 4748
+      }
+    },
+    {
+      "name": "phone: work 3 has authored detail and repository CTA",
+      "passed": true,
+      "detail": {
+        "title": "Job Search OS",
+        "content": "An application workflow with a memory, running since July 2026.\nCursor defines the policy. Polar Browser carries out the workflow. GitHub records changes, and Google Sheets tracks each run.\nApplication submission follows explicit rules.",
+        "href": "https://github.com/JunyiZhou-Conny/job-search-2026-2027-starter",
+        "placeholder": false,
+        "locked": true,
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "phone: work 3 images load and modal locks scroll",
+      "passed": true
+    },
+    {
+      "name": "phone: work 3 closes and restores native scroll",
+      "passed": true,
+      "detail": {
+        "before": {
+          "scroll": 5391,
+          "overflow": ""
+        },
+        "after": {
+          "scroll": 5391,
+          "overflow": ""
+        },
+        "scroll": 5291
+      }
+    },
+    {
+      "name": "phone: work 4 has authored detail and repository CTA",
+      "passed": true,
+      "detail": {
+        "title": "scGen / CellOT autoresearch",
+        "content": "Fairshare-aware ablation search on FASRC Cannon: submit experiments, watch results, reflect, and decide what to run next.\nThe director writes an agenda; the execution layer keeps carrying it out. This separates research planning from the cluster work that needs to continue.\nThe public repository describes the system. Unpublished scientific results remain private.",
+        "href": "https://github.com/JunyiZhou-Conny/scgen-cellot-autoresearch",
+        "placeholder": false,
+        "locked": true,
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "phone: work 4 images load and modal locks scroll",
+      "passed": true
+    },
+    {
+      "name": "phone: work 4 closes and restores native scroll",
+      "passed": true,
+      "detail": {
+        "before": {
+          "scroll": 5602,
+          "overflow": ""
+        },
+        "after": {
+          "scroll": 5602,
+          "overflow": ""
+        },
+        "scroll": 5502
+      }
+    },
+    {
+      "name": "phone: all page images load",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone: no runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone: no failed asset requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "errors": [],
+      "failedRequests": [],
+      "samples": [
+        {
+          "point": "hero",
+          "frame": {
+            "camera": [
+              0,
+              0.9420416183769703,
+              8.593389678001405
+            ],
+            "quaternion": [
+              0.0034915558615043057,
+              0,
+              0,
+              0.9999939045002555
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 0,
+          "width": 1440,
+          "viewport": 1440,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-1",
+          "frame": {
+            "camera": [
+              2.1468408495046134,
+              0.48421813369455713,
+              1.402661155003471
+            ],
+            "quaternion": [
+              0.15248137088877628,
+              0.353551097335041,
+              -0.058531355143493384,
+              0.921045673986982
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 950,
+          "width": 1440,
+          "viewport": 1440,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-2",
+          "frame": {
+            "camera": [
+              2.184882887794835,
+              0.5778421566631635,
+              -0.059029677466151065
+            ],
+            "quaternion": [
+              0.07876934676462266,
+              0.623395649066863,
+              -0.06333321290088242,
+              0.7753464766660327
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 1442,
+          "width": 1440,
+          "viewport": 1440,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-3",
+          "frame": {
+            "camera": [
+              -1.502039550188953,
+              1.6055564173113779,
+              1.0941099289583331
+            ],
+            "quaternion": [
+              -0.08989572578273694,
+              -0.41219992373607006,
+              -0.02859194016428421,
+              0.9061967128143951
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 2037,
+          "width": 1440,
+          "viewport": 1440,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-4",
+          "frame": {
+            "camera": [
+              -1.036076816620942,
+              -0.1595824891802473,
+              1.1438994774687432
+            ],
+            "quaternion": [
+              0.3443347127262728,
+              -0.2850016273910541,
+              0.11055251195433699,
+              0.887685653875713
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 2633,
+          "width": 1440,
+          "viewport": 1440,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-5",
+          "frame": {
+            "camera": [
+              0.6422310219347408,
+              1.7089632524268827,
+              7.483174879255162
+            ],
+            "quaternion": [
+              -0.03486086169447005,
+              -0.010463286787135654,
+              -0.0003652541479723513,
+              0.9993373337071605
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 3228,
+          "width": 1440,
+          "viewport": 1440,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "works",
+          "frame": {
+            "camera": [
+              4.02676659822464,
+              1.7089766055345534,
+              7.483220148086548
+            ],
+            "quaternion": [
+              -0.03486375513290455,
+              -0.010461145088438399,
+              -0.000365209824212144,
+              0.9993372552062975
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.2661476135253906,
+              0,
+              0.9639322757720947
+            ]
+          },
+          "scroll": 5623,
+          "width": 1440,
+          "viewport": 1440,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "Pediatric Savior",
+          "content": "A GPT-based rapid-cycle simulator for pediatric airway training, built with Emory Pediatrics and Children's Healthcare of Atlanta.\nResidents run cases. Admins edit instructions. The system includes chat, a case editor, conversation history, and Auth0 roles.\nThe application uses React, Flask, MongoDB, and AWS.",
+          "href": "https://github.com/JunyiZhou-Conny/Airway-Management-Assistant",
+          "placeholder": false,
+          "locked": true,
+          "brokenImages": []
+        },
+        {
+          "title": "speciesOT",
+          "content": "Exploring how optimal transport can map mouse cells to human cells in a shared autoencoder latent space.\nA command-line toolkit brings model comparison, scorecards, and cluster workflows together. It lists models, prints a scorecard, and shows the sbatch chain a human still submits.\nThis work is in progress. Research results stay outside the public repository.",
+          "href": "https://github.com/JunyiZhou-Conny/speciesOT",
+          "placeholder": false,
+          "locked": true,
+          "brokenImages": []
+        },
+        {
+          "title": "Job Search OS",
+          "content": "An application workflow with a memory, running since July 2026.\nCursor defines the policy. Polar Browser carries out the workflow. GitHub records changes, and Google Sheets tracks each run.\nApplication submission follows explicit rules.",
+          "href": "https://github.com/JunyiZhou-Conny/job-search-2026-2027-starter",
+          "placeholder": false,
+          "locked": true,
+          "brokenImages": []
+        },
+        {
+          "title": "scGen / CellOT autoresearch",
+          "content": "Fairshare-aware ablation search on FASRC Cannon: submit experiments, watch results, reflect, and decide what to run next.\nThe director writes an agenda; the execution layer keeps carrying it out. This separates research planning from the cluster work that needs to continue.\nThe public repository describes the system. Unpublished scientific results remain private.",
+          "href": "https://github.com/JunyiZhou-Conny/scgen-cellot-autoresearch",
+          "placeholder": false,
+          "locked": true,
+          "brokenImages": []
+        }
+      ]
+    },
+    {
+      "name": "phone",
+      "width": 390,
+      "height": 844,
+      "errors": [],
+      "failedRequests": [],
+      "samples": [
+        {
+          "point": "hero",
+          "frame": {
+            "camera": [
+              0.00046857657709304746,
+              0.8279362693428994,
+              10.32025838661201
+            ],
+            "quaternion": [
+              0.0034915558615043057,
+              0,
+              0,
+              0.9999939045002555
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 0,
+          "width": 390,
+          "viewport": 390,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-1",
+          "frame": {
+            "camera": [
+              2.2691068435922297,
+              0.3241309266058736,
+              1.9046908338509967
+            ],
+            "quaternion": [
+              0.15248336833401235,
+              0.35355628491103436,
+              -0.058533137160332205,
+              0.9210432387437579
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 861,
+          "width": 390,
+          "viewport": 390,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-2",
+          "frame": {
+            "camera": [
+              2.4707626793225232,
+              0.494385298411334,
+              0.22260522925386872
+            ],
+            "quaternion": [
+              0.07876856569922729,
+              0.6233983917912204,
+              -0.06333304909291554,
+              0.7753443641778799
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 1357,
+          "width": 390,
+          "viewport": 390,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-3",
+          "frame": {
+            "camera": [
+              -1.8723027292462489,
+              1.6606752436805758,
+              1.1547881535678715
+            ],
+            "quaternion": [
+              -0.0898965988898164,
+              -0.4122057726303758,
+              -0.028592935532664454,
+              0.9061939342965518
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 2024,
+          "width": 390,
+          "viewport": 390,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-4",
+          "frame": {
+            "camera": [
+              -1.3882868768807182,
+              -0.411308587971817,
+              1.233015879387633
+            ],
+            "quaternion": [
+              0.34433534607129485,
+              -0.28500140702627275,
+              0.11055263327302224,
+              0.8876854638414482
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 2691,
+          "width": 390,
+          "viewport": 390,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "focus-5",
+          "frame": {
+            "camera": [
+              -0.29971417762231223,
+              1.7759082578764709,
+              8.943142349117782
+            ],
+            "quaternion": [
+              -0.03485861340900748,
+              -0.010464950990788605,
+              -0.00036528858985237226,
+              0.9993373946952089
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.0012098865117877722,
+              0,
+              0.9999992847442627
+            ]
+          },
+          "scroll": 3352,
+          "width": 390,
+          "viewport": 390,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        },
+        {
+          "point": "works",
+          "frame": {
+            "camera": [
+              4.735646865124627,
+              1.8032130286097525,
+              8.964740883707181
+            ],
+            "quaternion": [
+              -0.03486375513290455,
+              -0.010461145088438399,
+              -0.000365209824212144,
+              0.9993372552062975
+            ],
+            "fov": 22.89519204617112,
+            "man": [
+              0,
+              0.2661476135253906,
+              0,
+              0.9639322757720947
+            ]
+          },
+          "scroll": 4688,
+          "width": 390,
+          "viewport": 390,
+          "headings": [
+            "About Conny",
+            "Focus",
+            "Pediatric Savior",
+            "speciesOT",
+            "Job Search OS",
+            "scGen / CellOT autoresearch",
+            "Systems other people can run",
+            "Clinical AI",
+            "Computational biology",
+            "Agent systems",
+            "Research infrastructure"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "Pediatric Savior",
+          "content": "A GPT-based rapid-cycle simulator for pediatric airway training, built with Emory Pediatrics and Children's Healthcare of Atlanta.\nResidents run cases. Admins edit instructions. The system includes chat, a case editor, conversation history, and Auth0 roles.\nThe application uses React, Flask, MongoDB, and AWS.",
+          "href": "https://github.com/JunyiZhou-Conny/Airway-Management-Assistant",
+          "placeholder": false,
+          "locked": true,
+          "brokenImages": []
+        },
+        {
+          "title": "speciesOT",
+          "content": "Exploring how optimal transport can map mouse cells to human cells in a shared autoencoder latent space.\nA command-line toolkit brings model comparison, scorecards, and cluster workflows together. It lists models, prints a scorecard, and shows the sbatch chain a human still submits.\nThis work is in progress. Research results stay outside the public repository.",
+          "href": "https://github.com/JunyiZhou-Conny/speciesOT",
+          "placeholder": false,
+          "locked": true,
+          "brokenImages": []
+        },
+        {
+          "title": "Job Search OS",
+          "content": "An application workflow with a memory, running since July 2026.\nCursor defines the policy. Polar Browser carries out the workflow. GitHub records changes, and Google Sheets tracks each run.\nApplication submission follows explicit rules.",
+          "href": "https://github.com/JunyiZhou-Conny/job-search-2026-2027-starter",
+          "placeholder": false,
+          "locked": true,
+          "brokenImages": []
+        },
+        {
+          "title": "scGen / CellOT autoresearch",
+          "content": "Fairshare-aware ablation search on FASRC Cannon: submit experiments, watch results, reflect, and decide what to run next.\nThe director writes an agenda; the execution layer keeps carrying it out. This separates research planning from the cluster work that needs to continue.\nThe public repository describes the system. Unpublished scientific results remain private.",
+          "href": "https://github.com/JunyiZhou-Conny/scgen-cellot-autoresearch",
+          "placeholder": false,
+          "locked": true,
+          "brokenImages": []
+        }
+      ]
+    }
+  ],
+  "finished": "2026-09-17T04:39:06.376Z",
+  "passed": true
+}

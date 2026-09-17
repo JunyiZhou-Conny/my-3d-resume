@@ -1,3 +1,5 @@
+> 此分支将 Conny 的角色和项目放入原版场景。请参阅[对比说明](docs/conny-comparison.md)和[运行指南](docs/run-conny-comparison.md)。下方保留原作者的项目文档。
+
 <h1 align="center">About Sen · 3D 个人简历</h1>
 
 <p align="center">
