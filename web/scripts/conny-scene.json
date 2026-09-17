@@ -1,0 +1,15 @@
+{
+  "fit": {
+    "scale": 1.90606594,
+    "translation": [-0.07799269, -0.93507463, 0.14042082]
+  },
+  "decalOffset": 0.00045,
+  "stickers": [
+    { "id": "pulse", "image": "pulse-illustrated.webp", "position": [-0.039, 0.403, -0.005], "normal": [-0.129, 0.767, 0.627], "size": 0.125, "rotation": 6 },
+    { "id": "dna", "image": "dna-illustrated.webp", "position": [-0.058, 0.268, 0.052], "normal": [0.35, 0.25, 0.903], "size": 0.135, "rotation": -8 },
+    { "id": "hub", "image": "hub-illustrated.webp", "position": [0.014, 0.199, 0.065], "normal": [-0.229, 0.232, 0.946], "size": 0.072, "rotation": 4 },
+    { "id": "chip", "image": "chip-illustrated.webp", "position": [0.148, 0.391, -0.007], "normal": [-0.322, 0.547, 0.772], "size": 0.13, "rotation": -14 },
+    { "id": "bike", "image": "bike-illustrated.webp", "position": [0.224, 0.238, 0.027], "normal": [0.125, 0.098, 0.985], "size": 0.12, "rotation": 7 },
+    { "id": "headphones", "image": "headphones-illustrated.webp", "position": [0.117, 0.229, 0.068], "normal": [0.086, 0.228, 0.969], "size": 0.08, "rotation": -5 }
+  ]
+}

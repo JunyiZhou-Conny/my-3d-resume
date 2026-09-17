@@ -24,15 +24,15 @@ type Lang = 'en' | 'zh'
 
 const COPY = {
   en: {
-    title: 'About Sen',
+    title: 'About Conny',
     paragraphs: [
-      "I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creativity, playful interaction & design, and CG work. I love studying and combining skills across different fields — to create, and to explore more possibilities.",
+      "I'm Conny. I build systems that move cells, proteins, and clinical training from experiment to something another person can run. My work connects clinical AI, computational biology, and research tools that keep moving.",
     ],
   },
   zh: {
-    title: 'About Sen',
+    title: 'About Conny',
     paragraphs: [
-      '我是 Sen——一个游走在代码与艺术之间的创意技术人。我常年和 Coding、创意、有趣的交互 & 设计、CG 创作等打交道，喜欢研究并组合不同领域的技能，来创造并探索更多可能性。',
+      '我是 Conny。我构建把细胞、蛋白质与临床训练从实验推进到他人也能运行的系统，关注临床 AI、计算生物学，以及持续推进研究的工具。',
     ],
   },
 }
@@ -92,7 +92,7 @@ function LangToggle({ lang, onToggle }: { lang: Lang; onToggle: () => void }) {
 }
 
 export default function App() {
-  const [lang, setLang] = useState<Lang>('zh')
+  const [lang, setLang] = useState<Lang>('en')
   const { scrollY } = useScroll()
   // 作品区蒙层：以作品区顶部从视口底进入到视口中部的进度，驱动 3D 渐暗 + 模糊
   const worksRef = useRef(null)
@@ -159,7 +159,7 @@ export default function App() {
         aria-hidden="true"
       /> */}
 
-      {/* 中英切换暂时隐藏，默认中文 */}
+      {/* 中英切换暂时隐藏，默认英文 */}
       {/* <LangToggle lang={lang} onToggle={() => setLang((l) => (l === 'en' ? 'zh' : 'en'))} /> */}
 
       {/* 首屏装饰：发丝内框 + 四角定位标 + 角标元数据（随滚动淡出） */}
@@ -170,12 +170,12 @@ export default function App() {
         <span className="hero-mark bl">+</span>
         <span className="hero-mark br">+</span>
         <div className="hero-meta hm-tl">
-          <span className="hm-name">Sen Zheng 郑越升</span>
-          <span>Creative Technologist</span>
+          <span className="hm-name">Junyi (Conny) Zhou</span>
+          <span>Health data science · Harvard / Wyss</span>
         </div>
         <div className="hero-meta hm-tr">Portfolio — 2026</div>
-        <div className="hero-meta hm-bl">Code · Art · Play</div>
-        <div className="hero-meta hm-right">Based in Shenzhen</div>
+        <div className="hero-meta hm-bl">Cells · Code · Care</div>
+        <div className="hero-meta hm-right">Based in Boston</div>
       </motion.div>
 
       {/* 全屏胶片噪点蒙层（multiply 混合） */}

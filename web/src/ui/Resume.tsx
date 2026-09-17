@@ -1,30 +1,9 @@
 import { motion } from 'framer-motion'
-import { ZooopLogo } from './ZooopLogo'
 import { SOCIAL_ICONS } from './SocialIcons'
 import { FOCUS_POINTS } from '../data/focusPoints'
 
-const SOCIAL_LINKS = [
-  {
-    id: 'douyin',
-    label: '抖音',
-    href: 'https://www.douyin.com/user/MS4wLjABAAAAlmQDgHf0NlbsjrfWENm8LyrIikxSRRq7mzlzQSIStQJkV7Ju52B6A55zw5TUDU5d',
-  },
-  {
-    id: 'bilibili',
-    label: 'B站',
-    href: 'https://space.bilibili.com/275344092?spm_id_from=333.937.0.0',
-  },
-  {
-    id: 'xiaohongshu',
-    label: '小红书',
-    href: 'https://www.xiaohongshu.com/user/profile/5ceba8c8000000000502fd69',
-  },
-]
-
-// 履历数据（双语）。英文为译稿，可按需润色。
 interface ResumeGroup {
   heading?: string
-  logo?: string
   logoImg?: string
   sub?: string
   link?: string
@@ -41,102 +20,124 @@ interface ResumeEntry {
 }
 const RESUME: Record<'en' | 'zh', { title: string; entries: ResumeEntry[] }> = {
   en: {
-    title: 'Résumé',
+    title: 'Focus',
     entries: [
       {
-        period: '2013 – 2017',
-        place: 'Sun Yat-sen University',
-        role: 'B.S. in Software Engineering',
+        period: '01 · Clinical AI',
+        place: 'Pediatric Savior',
+        role: 'Pediatric airway training · Shipped 2024',
       },
       {
-        period: '2017 – 2020',
-        place: 'HOTSAR Studio · Shanghai',
-        role: 'Co-founder',
-        logo: { src: `${import.meta.env.BASE_URL}images/hotsar.jpg`, alt: 'HOTSAR' },
+        period: '02 · Computational biology',
+        place: 'speciesOT',
+        role: 'Mouse-to-human cell transport',
         points: [
-          'Co-founder · team of 20+',
-          'Clients: Alibaba brands, Tencent, NetEase, DiDi, China Resources, McDonald’s…',
-          'Work: development / creative direction / animation / team management',
+          'Optimal transport in a shared autoencoder latent space.',
+          'Model comparison, scorecards, and cluster workflows in one CLI.',
+          'Python · PyTorch · scanpy · CellOT · SLURM',
         ],
       },
       {
-        period: '2020 – 2025',
-        place: 'Bad Printer Studio · Shenzhen',
-        role: 'Founder',
-        logo: { src: `${import.meta.env.BASE_URL}images/bp.png`, alt: 'Bad Printer Studio' },
+        period: '03 · Agent systems',
+        place: 'Job Search OS',
+        role: 'An application workflow with a memory',
         points: [
-          'Founder · team of 14',
-          'Clients: Honor of Kings / Trip.com / ByteDance / Kuaishou / VIVO / Tecno / Xiaomi / IM Motors…',
-          'Work: team management / creative direction / animation / development',
+          'Cursor defines policy. Polar Browser carries out the workflow.',
+          'GitHub records changes; Google Sheets tracks each run.',
+          'Application submission follows explicit rules.',
         ],
       },
       {
-        period: '2025 – Now',
-        place: 'Content Creator',
+        period: '04 · Research infrastructure',
+        place: 'scGen / CellOT autoresearch',
         groups: [
           {
-            heading: '小郑还挺忙',
-            logoImg: `${import.meta.env.BASE_URL}images/buzyzheng.png`,
-            sub: 'tech-DIY creator',
-            items: ['120K on Douyin · 87K on Bilibili · 23K on Xiaohongshu'],
-            links: SOCIAL_LINKS,
+            heading: 'Research that keeps running',
+            sub: 'FASRC Cannon',
+            items: [
+              'Submit experiments, watch results, and plan the next run.',
+              'An agent plans experiments and runs them on the cluster.',
+            ],
+            link: 'https://github.com/JunyiZhou-Conny/scgen-cellot-autoresearch',
           },
         ],
       },
       {
-        period: '2026 – Now',
-        place: 'Indie Developer',
-        groups: [{ logo: 'zooop', sub: 'AI creation platform', link: 'https://zooop.ai/' }],
+        period: '05 · Open methods',
+        place: 'Systems other people can run',
+        groups: [
+          {
+            heading: 'CLIs · runbooks · agent files',
+            sub: 'Explore on GitHub',
+            link: 'https://github.com/JunyiZhou-Conny',
+          },
+          {
+            heading: 'Get in touch',
+            sub: 'junyizhou@hsph.harvard.edu',
+            link: 'mailto:junyizhou@hsph.harvard.edu',
+          },
+        ],
       },
     ],
   },
   zh: {
-    title: 'Résumé',
+    title: 'Focus',
     entries: [
       {
-        period: '2013 – 2017',
-        place: '中山大学',
-        role: '软件工程 · 本科',
+        period: '01 · 临床 AI',
+        place: 'Pediatric Savior',
+        role: '儿科气道训练 · 2024 年发布',
       },
       {
-        period: '2017 – 2020',
-        place: 'HOTSAR 工作室 · 上海',
-        role: '联合创始人',
-        logo: { src: `${import.meta.env.BASE_URL}images/hotsar.jpg`, alt: 'HOTSAR' },
+        period: '02 · 计算生物学',
+        place: 'speciesOT',
+        role: '从小鼠细胞到人类细胞',
         points: [
-          '联合创始人，团队人数 20+',
-          '服务客户：阿里系品牌、腾讯、网易、滴滴、华润、麦当劳…',
-          '负责：技术开发 / 创意策划 / 动画制作 / 团队管理',
+          '在共享自编码器潜在空间中研究最优传输。',
+          '用一个命令行工具组织模型比较、评分与集群工作流。',
+          'Python · PyTorch · scanpy · CellOT · SLURM',
         ],
       },
       {
-        period: '2020 – 2025',
-        place: '坏打印机工作室 · 深圳',
-        role: '创始人',
-        logo: { src: `${import.meta.env.BASE_URL}images/bp.png`, alt: '坏打印机工作室' },
+        period: '03 · 智能体系统',
+        place: 'Job Search OS',
+        role: '有记忆的求职申请工作流',
         points: [
-          '创始人，团队人数 14',
-          '服务客户：王者荣耀 / 携程 / 字节 / 快手 / VIVO / 传音 / 小米…',
-          '负责：团队管理 / 创意策划 / 动画制作 / 技术开发',
+          'Cursor 定义策略，Polar Browser 执行工作流。',
+          'GitHub 记录变更，Google Sheets 跟踪每次运行。',
+          '申请提交遵循明确的规则。',
         ],
       },
       {
-        period: '2025 – 至今',
-        place: '自媒体博主',
+        period: '04 · 研究基础设施',
+        place: 'scGen / CellOT autoresearch',
         groups: [
           {
-            heading: '小郑还挺忙',
-            logoImg: `${import.meta.env.BASE_URL}images/buzyzheng.png`,
-            sub: '科技 DIY 博主',
-            items: ['抖音 12 万 · B站 8.7 万 · 小红书 2.3 万 关注'],
-            links: SOCIAL_LINKS,
+            heading: '持续运行的研究',
+            sub: 'FASRC Cannon',
+            items: [
+              '提交实验、观察结果，再规划下一次运行。',
+              '决策层提出计划，执行层持续推进。',
+            ],
+            link: 'https://github.com/JunyiZhou-Conny/scgen-cellot-autoresearch',
           },
         ],
       },
       {
-        period: '2026 – 至今',
-        place: '独立开发',
-        groups: [{ logo: 'zooop', sub: 'AI 创作平台', link: 'https://zooop.ai/' }],
+        period: '05 · 开放方法',
+        place: '让他人也能运行的系统',
+        groups: [
+          {
+            heading: '命令行工具 · 操作手册 · 智能体文件',
+            sub: '在 GitHub 查看',
+            link: 'https://github.com/JunyiZhou-Conny',
+          },
+          {
+            heading: '联系我',
+            sub: 'junyizhou@hsph.harvard.edu',
+            link: 'mailto:junyizhou@hsph.harvard.edu',
+          },
+        ],
       },
     ],
   },
@@ -158,17 +159,7 @@ const itemV = {
 
 function Group({ group }: { group: ResumeGroup }) {
   const heading =
-    group.logo === 'zooop' ? (
-      <a
-        className="zooop-logo-link"
-        href={group.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="ZOOOP"
-      >
-        <ZooopLogo className="zooop-logo" animated />
-      </a>
-    ) : group.link ? (
+    group.link ? (
       <a className="about-link" href={group.link} target="_blank" rel="noopener noreferrer">
         {group.heading}
       </a>
